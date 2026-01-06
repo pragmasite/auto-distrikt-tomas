@@ -63,6 +63,14 @@ export default {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      fontFamily: {
+        sans: ["'Space Grotesk'", "sans-serif"],
+        serif: ["'Plus Jakarta Sans'", "serif"],
+      },
+      boxShadow: {
+        soft: "var(--shadow-soft)",
+        medium: "var(--shadow-medium)",
+      },
       keyframes: {
         "accordion-down": {
           from: {
